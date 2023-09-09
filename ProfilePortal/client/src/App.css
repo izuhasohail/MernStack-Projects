@@ -1,0 +1,194 @@
+.app{
+  background-color: #ffffff;
+}
+
+.navlink-text{
+  text-decoration: none;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.signup{
+  background-color: lightgrey;
+}
+
+.custom-padding{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.contact_info_item{
+  display: block;
+  border: 1px solid lightgrey(255, 255, 255);
+  width: 20vw;
+  padding: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  background-color: white;
+
+}
+
+.container_fluid{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+._row{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact_form{
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+._container{
+  background-color: white;
+  height: 70vh;
+  width: 80vw;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.contact_form_title
+{
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.input_field
+{
+  border: 1px solid lightgrey;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+.contact_form_message{
+  width: 60vw;
+  max-height: 30vh;
+  margin-bottom: 15px;
+  color: blue;
+}
+
+.home-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-div > p{
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.home-div > h1{
+  font-weight: 900;
+}
+
+.person-img{
+  height: 200px;
+  object-fit: contain;
+  padding: 20px;
+
+}
+
+.user_name{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.emp-profile{
+  width: 60vw;
+  height: 70vh;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  background-color: #f0f0f06e;
+}
+
+.p1{
+  margin-left: -75px;
+  margin-top: 20px;
+}
+
+.profile-head > h6{
+  color: blue;
+}
+
+.item1{
+  margin-right: 10px;
+}
+
+.prodile-edit-btn{
+  border: none;
+  color: blue;
+  background-color:#f0f0f06e;
+  margin-top: 15px;
+}
+
+.profile-work >p , .profile-work > a{
+  text-decoration: none;
+  color: rgb(94, 90, 90);
+}
+
+.about-info{
+  margin-left: -30px;
+}
+
+.information > p{
+  color: blue;
+}
+.not-found{
+  background-color: rgb(243, 241, 241);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -65px;
+}
+
+.notfound_404 > h1{
+  font-weight: 900;
+  color: #d6cfcf;
+  font-size: 190px;
+}
+
+._errormessage{
+  
+  margin-top: -130px;
+  margin-left: -35px;
+  color: black;
+  font-weight: bold;
+}
+
+._button{
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+
+._options_margin{
+  margin-right: 35px;
+}
